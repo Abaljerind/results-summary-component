@@ -117,3 +117,6 @@ body {
 .card-body button.btn:hover {
   background: linear-gradient(to top, hsla(256, 72%, 46%, 1), hsl(252, 100%, 67%));
 }
+.card-body button.btn:focus {
+  background: linear-gradient(to top, hsla(256, 72%, 46%, 1), hsl(252, 100%, 67%));
+}
