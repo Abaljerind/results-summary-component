@@ -12,6 +12,7 @@ body {
 
 .container #card-model {
   box-shadow: 20px 20px 55px -35px hsla(256, 72%, 46%, 0.4);
+  margin-top: -140px;
 }
 
 /* card baris pertama */
@@ -121,8 +122,12 @@ body {
   background: linear-gradient(to top, hsla(256, 72%, 46%, 1), hsl(252, 100%, 67%));
 }
 
-@media (min-width: 576px) {
+@media (min-width: 375px) {
   .container {
     margin-top: 140px;
+  }
+
+  .card .row .your-result {
+    margin-top: 15px;
   }
 }
