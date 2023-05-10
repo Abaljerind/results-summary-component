@@ -4,6 +4,7 @@ body {
   height: 100%;
 }
 
+/* container */
 .container {
   height: 100%;
   /* agar mau ketengah tengah halaman, berikan height 100% */
@@ -11,4 +12,45 @@ body {
 
 .container #card-model {
   box-shadow: 20px 20px 55px -35px hsla(256, 72%, 46%, 0.4);
+}
+
+/* card-body */
+.card-body .reaction {
+  background-color: hsla(0, 100%, 67%, 0.1);
+}
+
+.card-body span#results {
+  font-weight: 700;
+}
+
+#reaction {
+  color: hsl(0, 100%, 67%);
+  font-weight: 700;
+}
+
+.card-body .memory {
+  background-color: hsla(39, 100%, 56%, 0.1);
+}
+
+#memory {
+  color: hsl(39, 100%, 56%);
+  font-weight: 700;
+}
+
+.card-body .verbal {
+  background-color: hsla(166, 100%, 37%, 0.1);
+}
+
+#verbal {
+  color: hsl(166, 100%, 37%);
+  font-weight: 700;
+}
+
+.card-body .visual {
+  background-color: hsla(234, 85%, 45%, 0.1);
+}
+
+#visual {
+  columns: hsl(234, 85%, 45%);
+  font-weight: 700;
 }
