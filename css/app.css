@@ -15,14 +15,20 @@ body {
 }
 
 /* card baris pertama */
-.card .baris-1 p.result span {
-  white-space: pre;
+
+/* kode dibawah ini untuk membagi 2 text dengan cara pada span pertama diberi ukuran yang besar dan display block, lalu margin-bottom nya digunakan untuk menarik kembali span yang kedua. */
+.card .baris-1 p.result span:nth-child(1) {
+  font-size: 75px;
+  font-weight: 700;
+  display: block;
+  margin-top: -10px;
+  margin-bottom: -120px;
 }
 
 .card .baris-1 p.result {
-  width: 150px;
-  height: 150px;
-  line-height: 150px;
+  width: 170px;
+  height: 170px;
+  line-height: 170px;
   border-radius: 50%;
   margin: 18px auto;
   padding: 3px;
@@ -34,11 +40,11 @@ body {
   background-color: hsla(0, 100%, 67%, 0.1);
 }
 
-.card-body span#results {
+.card-body p span#results {
   font-weight: 700;
 }
 
-.card-body span#total {
+.card-body p span#total {
   color: hsla(224, 30%, 27%, 0.5);
 }
 
