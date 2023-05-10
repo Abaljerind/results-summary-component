@@ -14,8 +14,19 @@ body {
   box-shadow: 20px 20px 55px -35px hsla(256, 72%, 46%, 0.4);
 }
 
-.card .row p.result span {
+/* card baris pertama */
+.card .baris-1 p.result span {
   white-space: pre;
+}
+
+.card .baris-1 p.result {
+  width: 150px;
+  height: 150px;
+  line-height: 150px;
+  border-radius: 50%;
+  margin: 18px auto;
+  padding: 3px;
+  box-sizing: border-box;
 }
 
 /* card-body */
