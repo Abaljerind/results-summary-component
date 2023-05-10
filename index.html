@@ -22,7 +22,7 @@
   </head>
   <body>
     <div class="container d-flex justify-content-center align-items-center">
-      <div class="card" style="max-width: 540px">
+      <div class="card" id="card-model" style="max-width: 540px">
         <div class="row g-0">
           <div class="col-md-4">
             <p class="card-text">Your Result</p>
@@ -30,38 +30,40 @@
             <p class="grade">Great</p>
             <p class="card-text">Your scored higher than 65% of the people who have taken these tests</p>
           </div>
-          <div class="col-md-8">
+          <div class="col-md-8 p-3">
             <div class="card-body">
-              <h5 class="card-title">Summary</h5>
-              <div class="reaction">
-                <div class="bg-light">
+              <h5 class="card-title pb-3">Summary</h5>
+              <div class="reaction pb-3">
+                <div class="bg-secondary p-2 rounded-3">
                   <img src="/assets/images/icon-reaction.svg" alt="reaction icon" />
                   <p class="card-text d-inline">Reaction</p>
                   <p class="value d-inline">80 / 100</p>
                 </div>
               </div>
-              <div class="memory">
-                <div class="bg-warning">
+              <div class="memory pb-3">
+                <div class="bg-warning p-2 rounded-3">
                   <img src="/assets/images/icon-memory.svg" alt="reaction icon" />
                   <p class="card-text d-inline">Memory</p>
                   <p class="value d-inline">92 / 100</p>
                 </div>
               </div>
-              <div class="verbal">
-                <div class="bg-success">
+              <div class="verbal pb-3">
+                <div class="bg-success p-2 rounded-3">
                   <img src="/assets/images/icon-verbal.svg" alt="reaction icon" />
                   <p class="card-text d-inline">Verbal</p>
                   <p class="value d-inline">61 / 100</p>
                 </div>
               </div>
-              <div class="visual">
-                <div class="bg-info">
+              <div class="visual pb-3">
+                <div class="bg-info p-2 rounded-3">
                   <img src="/assets/images/icon-visual.svg" alt="reaction icon" />
                   <p class="card-text d-inline">Visual</p>
                   <p class="value d-inline">72 / 100</p>
                 </div>
               </div>
-              <button type="button" class="btn btn-secondary">Continue</button>
+              <div class="button1 pt-4 d-grid col-12 mx-auto">
+                <button type="button" class="btn btn-secondary p-2 rounded-pill">Continue</button>
+              </div>
             </div>
           </div>
         </div>
