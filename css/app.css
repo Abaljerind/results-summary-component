@@ -1,0 +1,10 @@
+html,
+body {
+  font-family: "Hanken Grotesk", sans-serif;
+  height: 100%;
+}
+
+.container {
+  height: 100%;
+  margin-top: -50px; /* menyesuaikan dengan tinggi navbar */
+}
