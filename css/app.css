@@ -1,11 +1,11 @@
 html,
 body {
   font-family: "Hanken Grotesk", sans-serif;
-  height: 100%;
 }
 
 /* container */
 .container {
+  background-color: salm;
   height: 100%;
   /* agar mau ketengah tengah halaman, berikan height 100% */
 }
@@ -119,4 +119,10 @@ body {
 }
 .card-body button.btn:focus {
   background: linear-gradient(to top, hsla(256, 72%, 46%, 1), hsl(252, 100%, 67%));
+}
+
+@media (min-width: 576px) {
+  .container {
+    margin-top: 140px;
+  }
 }
