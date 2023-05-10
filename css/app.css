@@ -15,6 +15,11 @@ body {
 }
 
 /* card baris pertama */
+.card .baris-1 .your-result {
+  font-size: 18px;
+  font-weight: 700;
+  color: hsla(0, 0%, 100%, 0.5);
+}
 
 /* kode dibawah ini untuk membagi 2 text dengan cara pada span pertama diberi ukuran yang besar dan display block, lalu margin-bottom nya digunakan untuk menarik kembali span yang kedua. */
 .card .baris-1 p.result span:nth-child(1) {
@@ -23,6 +28,11 @@ body {
   display: block;
   margin-top: -10px;
   margin-bottom: -115px;
+  color: hsl(0, 0%, 100%);
+}
+
+.card .baris-1 p.result span:nth-child(2) {
+  color: hsla(0, 0%, 100%, 0.5);
 }
 
 .card .baris-1 p.result {
@@ -33,9 +43,28 @@ body {
   margin: 18px auto;
   padding: 3px;
   box-sizing: border-box;
+  background: linear-gradient(to bottom, hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+}
+
+.card p.grade {
+  font-size: 28px;
+  color: white;
+}
+
+.card p.scoreResult span.row {
+  font-size: 14px;
+  color: hsla(0, 0%, 100%, 0.5);
+}
+
+.card .baris-1 .bagian-kiri {
+  background: linear-gradient(to bottom, hsl(252, 100%, 67%), hsl(241, 81%, 54%));
 }
 
 /* card-body */
+.card-body .card-title {
+  font-weight: 700;
+}
+
 .card-body .reaction {
   background-color: hsla(0, 100%, 67%, 0.1);
 }
@@ -86,6 +115,5 @@ body {
 }
 
 .card-body button.btn:hover {
-  /* background-color: hsl(252, 100%, 67%); */
   background: linear-gradient(to top, hsla(256, 72%, 46%, 1), hsl(252, 100%, 67%));
 }
