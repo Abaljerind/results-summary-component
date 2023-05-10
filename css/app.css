@@ -54,3 +54,13 @@ body {
   columns: hsl(234, 85%, 45%);
   font-weight: 700;
 }
+
+.card-body button.btn {
+  background-color: hsl(224, 30%, 27%);
+  color: white;
+}
+
+.card-body button.btn:hover {
+  /* background-color: hsl(252, 100%, 67%); */
+  background: linear-gradient(to top, hsla(256, 72%, 46%, 1), hsl(252, 100%, 67%));
+}
