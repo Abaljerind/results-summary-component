@@ -14,6 +14,10 @@ body {
   box-shadow: 20px 20px 55px -35px hsla(256, 72%, 46%, 0.4);
 }
 
+.card .row p.result span {
+  white-space: pre;
+}
+
 /* card-body */
 .card-body .reaction {
   background-color: hsla(0, 100%, 67%, 0.1);
@@ -21,6 +25,10 @@ body {
 
 .card-body span#results {
   font-weight: 700;
+}
+
+.card-body span#total {
+  color: hsla(224, 30%, 27%, 0.5);
 }
 
 #reaction {
