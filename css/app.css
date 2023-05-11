@@ -121,12 +121,15 @@ body {
   background: linear-gradient(to top, hsla(256, 72%, 46%, 1), hsl(252, 100%, 67%));
 }
 
+/* media screen */
+/* mobile devices */
 @media (min-width: 375px) {
   .card .row .your-result {
     margin-top: 15px;
   }
 }
 
+/* desktop */
 @media (min-width: 768px) {
   .container {
     margin-top: 140px;
